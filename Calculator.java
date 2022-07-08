@@ -1,6 +1,13 @@
-package com;
 
-public class Calculator {
+
+public class calculator {
+	
+	public static void main(String[] args)
+	{
+		calculator c= new calculator();
+		int a=c.add(10, 20);
+		System.out.println(10+" + "+20+" = "+a);
+	}
 	
 	public int add(int a,int b)
 	{
@@ -22,11 +29,6 @@ public class Calculator {
 		return a/b;
 	}
 	
-	public static void main(String args[])
-	{
-		Calculator c= new Calculator();
-		int a=c.add(10, 20);
-		System.out.println(10+" + "+20+" = "+a);
-	}
+	
 
 }

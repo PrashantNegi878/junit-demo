@@ -21,5 +21,12 @@ public class Calculator {
 	{
 		return a/b;
 	}
+	
+	public static void main(String args[])
+	{
+		Calculator c= new Calculator();
+		int a=c.add(10, 20);
+		System.out.println(10+" + "+20+" = "+a);
+	}
 
 }
